@@ -1,0 +1,415 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+
+ _______  _______  _        _______  _______  _______  _       
+(  ____ \(  ____ \( (    /|(  ____ \(  ____ )(  ___  )( \      
+| (    \/| (    \/|  \  ( || (    \/| (    )|| (   ) || (      
+| |      | (__    |   \ | || (__    | (____)|| (___) || |      
+| | ____ |  __)   | (\ \) ||  __)   |     __)|  ___  || |      
+| | \_  )| (      | | \   || (      | (\ (   | (   ) || |      
+| (___) || (____/\| )  \  || (____/\| ) \ \__| )   ( || (____/\
+(_______)(_______/|/    )_)(_______/|/   \__/|/     \|(_______/
+
+*/
+
+body{
+	font-family: 'Oxygen Mono', monospace;
+	letter-spacing: 1pt;
+	line-height: 110%;
+	cursor: crosshair;
+}
+
+
+#conteneur{
+	width: 100%;
+}
+
+
+section{
+	width: 100%;
+	position: center;
+}
+
+
+figcaption{
+	opacity:0;
+}
+
+.liens{
+	text-decoration: none;
+	color: #c3dcdf;
+}
+
+
+
+a:hover {cursor: url(http://cur.cursors-4u.net/symbols/sym-1/sym57.cur), progress !important;}
+
+
+/*
+
+          _______  _______  ______   _______  _______ 
+|\     /|(  ____ \(  ___  )(  __  \ (  ____ \(  ____ )
+| )   ( || (    \/| (   ) || (  \  )| (    \/| (    )|
+| (___) || (__    | (___) || |   ) || (__    | (____)|
+|  ___  ||  __)   |  ___  || |   | ||  __)   |     __)
+| (   ) || (      | (   ) || |   ) || (      | (\ (   
+| )   ( || (____/\| )   ( || (__/  )| (____/\| ) \ \__
+|/     \|(_______/|/     \|(______/ (_______/|/   \__/
+
+*/
+
+header{
+	width: 100%;
+}
+
+
+#logo{
+	width:20%;
+	position:fixed;
+	display: inline-block;
+	vertical-align: top;
+	margin:1% auto;
+	margin-left: 7%;
+	z-index: 3;
+}
+
+
+#logo img{
+	width:20%;
+}
+
+
+#baniere{
+	width:100%;
+	position: fixed;
+	z-index: 2;
+}
+
+
+nav{
+	width: 700px;
+	position: fixed;
+	z-index: 3;
+	right: 0%;
+	margin: 3.8% auto;
+}
+
+li{
+	width: 120px;
+	margin-right: 5%;
+	float: right;
+	color: white;
+	text-shadow: 3px 4px 5px #f3c1d7;
+}
+
+
+
+
+/*                                    
+ _______  _                   _______  _______  _______ 
+(  ____ \( (    /|  |\     /|(  ____ )(  ___  )(  ____ \
+| (    \/|  \  ( |  | )   ( || (    )|| (   ) || (    \/
+| (__    |   \ | |  | |   | || (____)|| (___) || |      
+|  __)   | (\ \) |  ( (   ) )|     __)|  ___  || |      
+| (      | | \   |   \ \_/ / | (\ (   | (   ) || |      
+| (____/\| )  \  |    \   /  | ) \ \__| )   ( || (____/\
+(_______/|/    )_)     \_/   |/   \__/|/     \|(_______/
+                                    
+*/
+
+
+#sectionenvrac{
+	width: 100%;
+	display: inline-block;
+	margin: auto;
+}
+
+.imgenvrac{
+	width: 90%;
+	margin-bottom: 7%;
+}
+
+
+#colonne1{
+	width: 35%;
+	float: left;
+	margin-left: 7%;
+	margin-top: 12% ;
+	position: relative;
+}
+
+#colonne1 img{
+	float:right;
+}
+
+#colonne2{
+	width: 35%;
+	float: right;
+	margin-right: 7%;
+	margin-top: 12% ;
+	position: relative;
+}
+
+
+
+
+
+
+/*
+
+ _______      _______  _______  _______  _______  _______  _______ 
+(  ___  )    (  ____ )(  ____ )(  ___  )(  ____ )(  ___  )(  ____ \
+| (   ) |    | (    )|| (    )|| (   ) || (    )|| (   ) || (    \/
+| (___) |    | (____)|| (____)|| |   | || (____)|| |   | || (_____ 
+|  ___  |    |  _____)|     __)| |   | ||  _____)| |   | |(_____  )
+| (   ) |    | (      | (\ (   | |   | || (      | |   | |      ) |
+| )   ( |    | )      | ) \ \__| (___) || )      | (___) |/\____) |
+|/     \|    |/       |/   \__/(_______)|/       (_______)\_______)
+
+*/
+
+
+#presentation{
+	width: 100%;
+	display: inline-block;
+	margin: auto;
+	/*border: 2px solid red;*/
+}
+
+
+#portraitphilo{
+	width: 35%;
+	float: left;
+	margin-left: 7%;
+	margin-top: 10%;
+	position: relative;
+ 
+}
+
+
+#autoportrait{
+	width: 60%;
+	opacity: 0.85;
+	/*border: 2px solid black;*/
+}
+
+#contact{
+	width: 10%;
+	position: relative;
+	margin-top: 30%;
+	float: left;
+	margin-left: 7%;
+
+}
+
+#pourcontact{
+	position: relative;
+	left: -200px;
+	top:17px;
+}
+
+
+#definition{
+	width: 30%;
+	float: right;
+	margin-right: 7%;
+	margin-top: 12%;
+	position: relative;
+	/*border: 2px solid pink;*/
+}
+
+#bloc1{
+	margin-bottom: 20px;
+	/*border: 2px solid yellow;*/
+}
+
+#bloc2{
+	/*border: 2px solid yellow;*/
+}
+
+
+
+p{
+	font-size: 9pt;
+}
+
+
+h1{
+	color: grey;
+	font-size: 10pt;
+	margin-bottom: 20px;
+}
+
+
+h2{
+	margin-bottom: 40px;
+	font-size: 20pt;
+	letter-spacing: 18pt;
+	line-height: 24pt;
+}
+
+section{
+	display: inline-block;
+}
+
+
+
+/*
+ _______  _______  _______ _________ _______ _________ _______ 
+(  ____ )(  ____ )(  ___  )\__    _/(  ____ \\__   __/(  ____ \
+| (    )|| (    )|| (   ) |   )  (  | (    \/   ) (   | (    \/
+| (____)|| (____)|| |   | |   |  |  | (__       | |   | (_____ 
+|  _____)|     __)| |   | |   |  |  |  __)      | |   (_____  )
+| (      | (\ (   | |   | |   |  |  | (         | |         ) |
+| )      | ) \ \__| (___) ||\_)  )  | (____/\   | |   /\____) |
+|/       |/   \__/(_______)(____/   (_______/   )_(   \_______)
+                                                               
+
+*/
+
+
+h3{
+	margin-bottom: 20px;
+	font-size: 15pt;
+	letter-spacing: 15pt;
+	line-height: 24pt;
+	text-decoration: none;
+	color:black;
+}
+
+
+#colonne1 h3{
+	margin-left: 10%;
+}
+
+
+footer{
+	width: 100%;
+	text-align: center;
+	font-size: 0.5em;
+	margin-top: 40px;
+	opacity: 0.5;
+}
+
+
+
+
+/*
+ _______  _______  _______ _________ _______ _________ _______  ______  
+(  ____ )(  ____ )(  ___  )\__    _/(  ____ \\__   __/(  ____ \(  ___ \ 
+| (    )|| (    )|| (   ) |   )  (  | (    \/   ) (   | (    \/| (   ) )
+| (____)|| (____)|| |   | |   |  |  | (__       | |   | (_____ | (__/ / 
+|  _____)|     __)| |   | |   |  |  |  __)      | |   (_____  )|  __ (  
+| (      | (\ (   | |   | |   |  |  | (         | |         ) || (  \ \ 
+| )      | ) \ \__| (___) ||\_)  )  | (____/\   | |   /\____) || )___) )
+|/       |/   \__/(_______)(____/   (_______/   )_(   \_______)|/ \___/ 
+                                                                         
+*/
+
+
+#intention{
+	position: relative;
+	left: -120px;
+	top:17px;
+}
+
+
+#images{
+	width: 35%;
+	float: left;
+	margin-left: 7%;
+	margin-top: 12%;
+	position: relative;
+ 
+}
+
+.images{
+	width: 100%;
+}
+
+
+#reponses{
+	margin-top: 20px;
+	font-size: 9pt
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
