@@ -468,7 +468,7 @@ svg {
 #pindex{
 	position: center;
 	z-index:1;
-	border: solid black;
+	border: 2px solid black;
 }
 
 
