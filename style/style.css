@@ -425,6 +425,8 @@ svg {
 
 .cls-2:hover{
 	transform: scale(1.4);
+	cursor: url(http://cur.cursors-4u.net/symbols/sym-1/sym57.cur), progress !important;
+
 }
 
 
