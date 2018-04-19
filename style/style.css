@@ -373,6 +373,12 @@ footer{
 */
 
 
+#intention{
+	position: relative;
+	left: -130px;
+	top:17px;
+}
+
 #definition{
 	width: 35%;
 	position: relative;
