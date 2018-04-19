@@ -113,39 +113,39 @@ header{
 
 
 #logo{
-	width:20%;
+	width:42%;
 	position:fixed;
 	display: inline-block;
 	vertical-align: top;
-	margin:1% auto;
-	margin-left: 7%;
+	margin:2.5% auto;
+	margin-left: 10%;
 	z-index: 3;
-}
-
-
-#logo img{
-	width:20%;
 }
 
 
 #baniere{
 	width:100%;
+	height: 15%;
 	position: fixed;
 	z-index: 2;
 }
 
 
 nav{
-	width: 700px;
+	width: 100px;
+	height: 11%;
 	position: fixed;
 	z-index: 3;
-	right: 0%;
+	right: 10%;
 	margin: 3.8% auto;
 }
 
 li{
-	width: 120px;
-	margin-right: 5%;
+	width: 100px;
+	height: 100%;
+	margin-bottom: 4%;
+	text-align: right;
+	font-size: 11pt;
 	float: right;
 	color: white;
 	text-shadow: 3px 4px 5px #f3c1d7;
@@ -178,6 +178,7 @@ li{
 	margin-bottom: 7%;
 }
 
+
 .imgenvrac1{
 	width: 90%;
 	margin-bottom: 7%;
@@ -191,15 +192,15 @@ li{
 
 
 *{
-	transition: all ease-in-out 0.7s;
+	transition: all ease-in-out 1s;
 }
 
 
 #colonne1{
-	width: 35%;
+	width: 80%;
 	float: left;
-	margin-left: 7%;
-	margin-top: 12% ;
+	margin-left: 6%;
+	margin-top: 25% ;
 	position: relative;
 }
 
@@ -208,14 +209,16 @@ li{
 }
 
 #colonne2{
-	width: 35%;
-	float: right;
-	margin-right: 7%;
-	margin-top: 12% ;
+	width: 80%;
+	float: left;
+	margin-left: 7%;
+	margin-top: 7% ;
 	position: relative;
 }
 
-
+#colonne2 img{
+	float: right;
+}
 
 
 
@@ -243,53 +246,46 @@ li{
 
 
 #portraitphilo{
-	width: 35%;
-	float: left;
+	width: 80%;
 	margin-left: 7%;
-	margin-top: 10%;
+	margin-top: 20%;
 	position: relative;
- 
 }
 
 
 #autoportrait{
-	width: 60%;
+	width: 70%;
 	opacity: 0.85;
-	/*border: 2px solid black;*/
-}
-
-#contact{
-	width: 10%;
-	position: relative;
-	margin-top: 30%;
-	float: left;
-	margin-left: 7%;
-
+	margin-left: 18%;
+	margin-top: 20px;
+	display: block;
+	margin-bottom: 0px;
 }
 
 #pourcontact{
-	position: relative;
-	left: -200px;
-	top:17px;
+	left: 0;
+	top: 0;	
+	margin-bottom: 17px;
 }
 
-
 #definition{
-	width: 30%;
-	float: right;
-	margin-right: 7%;
-	margin-top: 12%;
-	position: relative;
+	width: 80%;
 	/*border: 2px solid pink;*/
 }
 
 #bloc1{
-	margin-bottom: 20px;
-	/*border: 2px solid yellow;*/
+	width: 100%;
+	display: block;
+	margin-left: -3%;
+	margin-top: -150px;
+
 }
 
 #bloc2{
-	/*border: 2px solid yellow;*/
+	width: 100%;
+	margin-left: -3%;
+	margin-top: 20px;
+	margin-bottom: 40px;
 }
 
 
@@ -347,14 +343,18 @@ h3{
 	margin-left: 10%;
 }
 
+#colonne2 h3{
+	margin-left: 10%;
+}
+
 
 footer{
-	width: 100%;
-	text-align: center;
+	width: 80%;
 	font-size: 0.6em;
 	margin-top: 40px;
 	margin-bottom: 15px;
 	opacity: 0.5;
+	margin: auto;
 }
 
 
@@ -373,35 +373,40 @@ footer{
 */
 
 
+#bloc1{
+	margin-top: -20%;
+}
+
+
 #definition{
-	width: 35%;
 	position: relative;
-	left: 20px;
-	top:12%;
-	display: inline;
-	float: right;
+	top:20%;
+	left: 0px;
+	margin-bottom: 5px;
+	width: 80%;
 }
 
 
 #images{
-	width: 35%;
-	left: -11%;
-	float: left;
-	margin-top: 12%;
+	width: 80%;
+	margin-left: 15%;
+	margin-top: 0%;
 	position: relative;
-	display: inline;
  
 }
 
 .images{
 	width: 100%;
+	margin-left: 7%;
+	margin-top: 0%;
+	margin-bottom: 5%;
+	position: relative;
 }
 
 
 #reponses{
 	margin-top: 20px;
-	font-size: 9pt;
-
+	font-size: 8pt;
 }
 
 
@@ -480,27 +485,3 @@ svg {
     transform: scale(1.1);
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
