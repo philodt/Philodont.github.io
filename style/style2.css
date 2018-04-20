@@ -120,6 +120,7 @@ header{
 	margin:2.5% auto;
 	margin-left: 10%;
 	z-index: 3;
+	display: none;
 }
 
 
@@ -132,25 +133,21 @@ header{
 
 
 nav{
-	width: 100px;
-	height: 11%;
+	width: 100%;
 	position: fixed;
 	z-index: 3;
-	right: 10%;
-	margin: 3.8% auto;
+	margin: 8%;
+	margin-right: 5%;
 }
 
+
 li{
-	width: 100px;
-	height: 100%;
-	margin-bottom: 4%;
-	text-align: right;
-	font-size: 11pt;
-	float: right;
+	font-size: 14pt;
+	text-align: center;
+	width: 30%;
 	color: white;
 	text-shadow: 3px 4px 5px #f3c1d7;
 }
-
 
 
 
@@ -173,16 +170,6 @@ li{
 	margin: auto;
 }
 
-.imgenvrac{
-	width: 90%;
-	margin-bottom: 7%;
-}
-
-
-.imgenvrac1{
-	width: 90%;
-	margin-bottom: 7%;
-}
 
 
 .imgenvrac:hover{
@@ -197,27 +184,29 @@ li{
 
 
 #colonne1{
-	width: 80%;
+	width: 90%;
 	float: left;
-	margin-left: 6%;
+	margin-left: 5%;
 	margin-top: 25% ;
 	position: relative;
 }
 
 #colonne1 img{
 	float:right;
+	width: 100%;
 }
 
 #colonne2{
-	width: 80%;
+	width: 90%;
 	float: left;
-	margin-left: 7%;
-	margin-top: 7% ;
+	margin-left: 5%;
+	margin-top: 0% ;
 	position: relative;
 }
 
 #colonne2 img{
 	float: right;
+	width: 100%;
 }
 
 
@@ -257,15 +246,15 @@ li{
 	width: 70%;
 	opacity: 0.85;
 	margin-left: 18%;
-	margin-top: 20px;
+	margin-top: 0%;
 	display: block;
-	margin-bottom: 0px;
+	margin-bottom: 30px;
 }
 
 #pourcontact{
 	left: 0;
 	top: 0;	
-	margin-bottom: 17px;
+	margin-bottom: 20px;
 }
 
 #definition{
@@ -291,20 +280,22 @@ li{
 
 
 p{
-	font-size: 9pt;
+	font-size: 12pt;
+	line-height: 16pt;
+
 }
 
 
 h1{
 	color: grey;
-	font-size: 10pt;
+	font-size: 11pt;
 	margin-bottom: 20px;
 }
 
 
 h2{
 	margin-bottom: 40px;
-	font-size: 20pt;
+	font-size: 22pt;
 	letter-spacing: 18pt;
 	line-height: 24pt;
 }
@@ -340,11 +331,13 @@ h3{
 
 
 #colonne1 h3{
-	margin-left: 10%;
+	width: 80%;
+	margin-left: 0%;
 }
 
 #colonne2 h3{
-	margin-left: 10%;
+	width: 80%;
+	margin-left: 0%;
 }
 
 
@@ -352,7 +345,7 @@ footer{
 	width: 80%;
 	font-size: 0.6em;
 	margin-top: 40px;
-	margin-bottom: 15px;
+	margin-bottom: 4%;
 	opacity: 0.5;
 	margin: auto;
 }
@@ -381,15 +374,21 @@ footer{
 #definition{
 	position: relative;
 	top:20%;
-	left: 0px;
+	left: 5%;
 	margin-bottom: 5px;
-	width: 80%;
+	width: 90%;
 }
 
 
+#intention{
+	left: 0;
+	top: 0;	
+	margin-bottom: 20px;
+}
+
 #images{
-	width: 80%;
-	margin-left: 15%;
+	width: 90%;
+	margin-left: 10%;
 	margin-top: 0%;
 	position: relative;
  
