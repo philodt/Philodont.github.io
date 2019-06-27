@@ -33,6 +33,7 @@ body {
 }
 ol, ul {
 	list-style: none;
+	font-family: 'Emblema One', cursive;
 }
 blockquote, q {
 	quotes: none;
@@ -86,7 +87,7 @@ figcaption{
 
 .liens{
 	text-decoration: none;
-	color: #c3dcdf;
+	color: #f3c1d7;
 }
 
 
@@ -124,11 +125,12 @@ header{
 }
 
 
-#baniere{
-	width:100%;
-	height: 15%;
+#P{
+    display: block;
+	width:230%;
 	position: fixed;
-	z-index: 2;
+	right: -65%;
+	top: -90%;
 }
 
 
@@ -136,15 +138,15 @@ nav{
 	width: 100%;
 	position: fixed;
 	z-index: 3;
-	margin: 8%;
-	margin-right: 5%;
+	margin: 6%;
+	margin-right: 2%;
 }
 
 
 li{
-	font-size: 12pt;
+	font-size: 15pt;
 	text-align: center;
-	width: 30%;
+	width: 33%;
 	color: white;
 	text-shadow: 3px 4px 5px #f3c1d7;
 }
@@ -244,7 +246,6 @@ li{
 
 #autoportrait{
 	width: 70%;
-	opacity: 0.85;
 	margin-left: 18%;
 	margin-top: 0%;
 	display: block;
@@ -290,14 +291,16 @@ h1{
 	color: grey;
 	font-size: 11pt;
 	margin-bottom: 20px;
+	
 }
 
 
 h2{
 	margin-bottom: 40px;
 	font-size: 22pt;
-	letter-spacing: 18pt;
+	letter-spacing: 10pt;
 	line-height: 24pt;
+	font-family: 'Emblema One', cursive;
 }
 
 section{
@@ -323,10 +326,11 @@ section{
 h3{
 	margin-bottom: 20px;
 	font-size: 15pt;
-	letter-spacing: 15pt;
+	letter-spacing: 10pt;
 	line-height: 24pt;
 	text-decoration: none;
-	color:black;
+	color:#201f1e;
+	font-family: 'Emblema One', cursive;
 }
 
 
